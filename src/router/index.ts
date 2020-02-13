@@ -4,6 +4,7 @@ import Hello from "@/views/home.vue";
 import List from "@/views/list.vue";
 import Ts from "@/views/ts.vue";
 import Dec from "@/views/decorator.vue";
+import Vux from "@/views/vuex.vue";
 
 Vue.use(Router);
 
@@ -28,6 +29,11 @@ export default new Router({
       path: "/decorator",
       name: "decorator",
       component: Dec
+    },
+    {
+      path: "/vuex",
+      name: "vuex",
+      component: Vux
     }
   ]
 });

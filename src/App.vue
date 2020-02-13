@@ -4,6 +4,7 @@
     <router-link to="/list">List</router-link>
     <router-link to="/tsc">TS-Component</router-link>
     <router-link to="/decorator">装饰器@-Component</router-link>
+    <router-link to="/vuex">Vuex-page</router-link>
     <router-view />
   </div>
 </template>
