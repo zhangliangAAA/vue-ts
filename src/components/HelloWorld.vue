@@ -2,16 +2,12 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
-    <List :propMsg="'pppp'"></List>
   </div>
 </template>
 
 <script lang="ts">
-import List from "./List.vue";
-
 export default {
   name: "HelloWorld",
-  components: { List },
   data() {
     return {
       msg: "Welcome to Your Vue.js App"
