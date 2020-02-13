@@ -9,6 +9,7 @@
       true,
       "double"
     ],
+    "semicolon": [true, "always", "ignore-interfaces"], //分号的使用规则
     "indent": [
       true
     ],
@@ -20,5 +21,8 @@
     "object-literal-sort-keys": false,
     "no-unused-expression": false
   },
-  "rulesDirectory": []
+  "rulesDirectory": [],
+  // "enable": true,
+  // "jsEnable": true,
+  "autoFixOnSave": true
 }
